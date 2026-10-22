@@ -1,0 +1,25 @@
+# 默认按文本处理，自动识别换行符
+* text=auto
+
+# Unix 下运行的脚本与源码统一 LF
+*.sh   text eol=lf
+*.bash text eol=lf
+*.py   text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+
+# Windows 脚本保持 CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不参与换行转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.7z   binary
+*.exe  binary
+*.pdf  binary
